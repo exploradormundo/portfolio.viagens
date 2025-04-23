@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explorador do Mundo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fefcf9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-image: url('https://source.unsplash.com/1600x500/?travel,nature');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      text-shadow: 2px 2px 4px #000;
+    }
+    nav {
+      background: #2fb9b9;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      padding: 15px;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { background: #239d9d; }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #2fb9b9;
+      margin-bottom: 20px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .projects img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .projects img:hover { transform: scale(1.05); }
+    footer {
+      background: #2fb9b9;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    ul { list-style: none; padding-left: 0; }
+    ul li { margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌍 Explorador do Mundo</h1>
+    <p>Um diário visual das minhas aventuras</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre Mim</a>
+    <a href="#projetos">Viagens</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bem-vindo!</h2>
+    <p>Este é o meu espaço para compartilhar histórias, fotos e experiências incríveis dos lugares que já explorei. Prepare-se para se inspirar a viajar!</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou um(a) viajante apaixonado(a) por conhecer novos cantos do mundo. Com minha câmera e minha mochila, já passei por praias paradisíacas, cidades históricas e trilhas nas montanhas. Cada viagem é uma nova história pra contar.</p>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Galeria de Viagens</h2>
+    <img src="https://source.unsplash.com/600x400/?bali,beach" alt="Praia em Bali">
+    <img src="https://source.unsplash.com/600x400/?newyork,city" alt="Nova York">
+    <img src="https://source.unsplash.com/600x400/?japan,temple" alt="Templo no Japão">
+    <img src="https://source.unsplash.com/600x400/?iceland,nature" alt="Natureza da Islândia">
+    <img src="https://source.unsplash.com/600x400/?rome,colosseum" alt="Roma">
+    <img src="https://source.unsplash.com/600x400/?desert,dubai" alt="Deserto em Dubai">
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Quer conversar sobre viagens, pedir dicas ou só bater papo sobre o mundo? Me chama:</p>
+    <ul>
+      <li>Instagram: <a href="https://instagram.com/explorador.mundo" target="_blank">@explorador.mundo</a></li>
+      <li>Email: explorador@exemplo.com</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Explorador do Mundo | Feito com 💙 e vontade de viajar</p>
+  </footer>
+
+</body>
+</html>
